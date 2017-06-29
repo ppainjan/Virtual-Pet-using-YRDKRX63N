@@ -1,0 +1,5 @@
+"C:\WorkSpace\Virtual_Pet\Virtual_Pet\r_bsp\board\rdkrx63n\lowlvl.src"
+-cpu=rx600
+-debug
+-output="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\lowlvl.obj"
+-nologo

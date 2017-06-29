@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\Virtual_Pet.lib"
+-lang=c99
+-head=runtime,stdio,stdlib,string

@@ -1,0 +1,93 @@
+Optimizing Linkage Editor (V.10.02.00.000)        29-Mar-2016 12:20:02
+
+*** Options ***
+
+-subcommand=C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\Virtual_Pet.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\Virtual_Pet.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\bitmap_font.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\cmt_periodic_multi.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\dbsct.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\flash_options.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\font_8x8.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\glyph.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\hwsetup.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\lcd.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\lowlvl.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\lowsrc.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\r_glyph.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\r_glyph_register.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\r_rspi_rx600.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\resetprg.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\S12ADC.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\sbrk.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\st7579_lcd.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\timer_adc.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\tutorial_main.obj"
+-input="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\vecttbl.obj"
+-library="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\Virtual_Pet.lib"
+-output="C:\WorkSpace\Virtual_Pet\Virtual_Pet\Debug\Virtual_Pet.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+SI
+                                  00000000  000003ff       400   4
+SU
+                                  00000400  000013ff      1000   4
+B_1
+                                  00001400  00001427        28   1
+R_1
+                                  00001428  00001b0f       6e8   1
+B_2
+                                  00001b10  00001b10         0   2
+R_2
+                                  00001b10  00001b11         2   2
+B
+                                  00001b14  000020fb       5e8   4
+R
+                                  000020fc  00002793       698   4
+$ADDR_C_FF7FFFE8
+                                  ff7fffe8  ff7fffff        18   1
+C_1
+                                  fff80000  fff82d04      2d05   1
+C_2
+                                  fff82d06  fff82f07       202   2
+C
+                                  fff82f08  fff833bf       4b8   4
+C$DSEC
+                                  fff833c0  fff833e3        24   4
+C$BSEC
+                                  fff833e4  fff833fb        18   4
+C$VECT
+                                  fff833fc  fff837fb       400   4
+L
+                                  fff837fc  fff83974       179   4
+D_1
+                                  fff83975  fff8405c       6e8   1
+D
+                                  fff84060  fff846f7       698   4
+D_2
+                                  fff846f8  fff846f9         2   2
+P
+                                  fff846fa  fff88aea      43f1   1
+W_1
+                                  fff88aeb  fff88aeb         0   1
+W_2
+                                  fff88aec  fff88bbd        d2   2
+W
+                                  fff88bc0  fff88bc0         0   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff8f        10   1
+FIXEDVECT
+                                  ffffff90  ffffffff        70   4
